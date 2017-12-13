@@ -36,6 +36,8 @@ function drop(ev)
  <form>
  <input type="radio" name="sex" value="male">Male<br>
  <input type="radio" name="sex" value="female">Female
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+ <input type="checkbox" name="vehicle" value="Car">I have a car 
  </form> 
 </body>
 </html>
