@@ -27,11 +27,15 @@ function drop(ev)
 </head>
 <body>
  
+
 <p>拖动 RUNOOB.COM 图片到矩形框中:</p>
  
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
 <img id="drag1" src="/images/logo.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
- 
+ <form>
+ <input type="radio" name="sex" value="male">Male<br>
+ <input type="radio" name="sex" value="female">Female
+ </form> 
 </body>
 </html>
