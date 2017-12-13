@@ -28,8 +28,9 @@ function drop(ev)
 </script>
 </head>
 <body>
-
+<P>这是一次作业<p>
 <p>拖动 RUNOOB.COM 图片到矩形框中:</p>
+
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
